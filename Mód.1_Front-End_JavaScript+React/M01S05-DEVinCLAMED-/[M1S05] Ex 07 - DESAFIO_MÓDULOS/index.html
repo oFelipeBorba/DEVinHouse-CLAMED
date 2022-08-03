@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esse exercicio é dificil</title>
+    <script src="formulario.js" type="module" defer></script>
+    <script src="usuario.js" type="module" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="form">
+            <h1>Cadastro de Usuário</h1>
+            <label for="nome">Nome</label>
+            <input id="nome" type="text">
+            <label for="imagem">Imagem</label>
+            <input id="imagem" type="text">
+            <label for="descricao">Descrição</label>
+            <textarea name="descricao" id="descricao" cols="30" rows="10"></textarea>
+            <button id="botao1">Criar usuário</button>
+        </div>
+        <div id="card">
+            <img id="imagemFinal" src="" alt="Uma imagem escolhida pelo usuário">
+            <h3 id="recebeNome"></h3>
+            <p id="recebeDescricao"></p>
+        </div>
+    </div>
+</body>
+</html>

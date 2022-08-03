@@ -1,0 +1,54 @@
+#container {
+
+  display: flex;
+  width: 1080px;
+  gap: 100px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+body {
+  margin-left: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #f8f9e9;
+}
+h3 {
+  color: #413d4c;
+}
+#form {
+  color: #b5b1ab;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  height: 20px;
+  width: 400px;
+  background-color: #ffd27d;
+}
+#descricao {
+  width: 400px;
+  height: 80px;
+}
+textarea {
+  background-color: #ffd27d;
+}
+#botao1 {
+  margin-top: 20px;
+  display: flex;
+  background: black;
+  color: #ae8d46;
+  padding: 20px;
+  width: 405px;
+  height: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#botao:hover {
+  background-color: #181e1f;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+}

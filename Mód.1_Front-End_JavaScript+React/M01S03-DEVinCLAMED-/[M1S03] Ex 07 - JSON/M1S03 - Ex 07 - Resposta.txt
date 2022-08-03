@@ -1,0 +1,15 @@
+// BaixE o programa Postman para Windows/Linux e faça uma requisição GET para o seguinte 
+// endereço: https://jsonplaceholder.typicode.com/todos/1
+
+// Analise e entenda a resposta que é entregue em formato JSON.
+// Em seguida, explique, com suas palavras,
+// o que entendeu a respeito.
+
+Os dados recebidos foram:
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+Aparentemente são dados de cadastro de um usuario em algum site. O título 'title' é um texto exemplo e o status 'completed' está como false, o que me faz pensar que não foi possível concluir o cadastro/requisição.

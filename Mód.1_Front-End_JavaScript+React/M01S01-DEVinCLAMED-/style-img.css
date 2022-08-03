@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main {
+    text-align: center;
+}
+.img-gato {
+    width: 25%;
+}
+.img-nasa {
+    width: 20%;
+}
+.img-tubavalo {
+    width: 40%;
+}

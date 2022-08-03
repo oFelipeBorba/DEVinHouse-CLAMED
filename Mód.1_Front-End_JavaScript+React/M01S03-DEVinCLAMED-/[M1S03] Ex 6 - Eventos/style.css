@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1 {
+    color: white;
+}
+
+div {
+    background: linear-gradient(90deg,#ef8525, #bf308e, #252e79);
+    padding: 10px 0 30px 0;
+}
+
+ul {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
